@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60CF4EDA60535723089E1E24 /* Pods_Zwallet_Vindra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBF6EE72857BBAB16BBFA3A /* Pods_Zwallet_Vindra.framework */; };
+		701CF37A2A8F050000FC15DA /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF3792A8F050000FC15DA /* ApiService.swift */; };
+		701CF37C2A8F063C00FC15DA /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF37B2A8F063C00FC15DA /* AccessToken.swift */; };
+		701CF37F2A8F06FE00FC15DA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF37E2A8F06FE00FC15DA /* Profile.swift */; };
+		701CF3A52A8F2A0C00FC15DA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF3A42A8F2A0C00FC15DA /* LoginResponse.swift */; };
+		701CF3A72A8F2C2400FC15DA /* TokenConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF3A62A8F2C2400FC15DA /* TokenConstant.swift */; };
+		701CF3A92A8F492800FC15DA /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF3A82A8F492800FC15DA /* SignUpResponse.swift */; };
+		701CF3AB2A8F5A8300FC15DA /* ResetPassResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF3AA2A8F5A8300FC15DA /* ResetPassResponse.swift */; };
+		7029FD852A8A0AEB0015DF9D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7029FD842A8A0AEB0015DF9D /* StringExtension.swift */; };
+		7060559C2A8CAC2C0057E29F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7060559B2A8CAC2C0057E29F /* Api.swift */; };
+		7060559F2A8CAF020057E29F /* ForgotPassFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7060559E2A8CAF020057E29F /* ForgotPassFirstViewController.swift */; };
+		706055A12A8CB4890057E29F /* ForgotPassSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706055A02A8CB4890057E29F /* ForgotPassSecondViewController.swift */; };
+		706F80452A86512A0053F152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706F80442A86512A0053F152 /* AppDelegate.swift */; };
+		706F80472A86512A0053F152 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706F80462A86512A0053F152 /* SceneDelegate.swift */; };
+		706F80492A86512A0053F152 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706F80482A86512A0053F152 /* LoginViewController.swift */; };
+		706F804C2A86512A0053F152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706F804A2A86512A0053F152 /* Main.storyboard */; };
+		706F804E2A86512C0053F152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706F804D2A86512C0053F152 /* Assets.xcassets */; };
+		706F80512A86512C0053F152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706F804F2A86512C0053F152 /* LaunchScreen.storyboard */; };
+		7078676B2A8F9361005B2832 /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7078676A2A8F9361005B2832 /* ProfileResponse.swift */; };
+		7078676D2A8FB753005B2832 /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7078676C2A8FB753005B2832 /* LogoutResponse.swift */; };
+		707FBE562A8B5B2C00446C13 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FBE552A8B5B2C00446C13 /* HomeViewController.swift */; };
+		707FBE582A8B662A00446C13 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FBE572A8B662A00446C13 /* ProfileViewController.swift */; };
+		70B37F432A88F55B001D8784 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B37F422A88F55B001D8784 /* OTPViewController.swift */; };
+		70EC3DD52A87CD850080D88C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EC3DD42A87CD850080D88C /* RoundedButton.swift */; };
+		70F259C72A88AFC00052145E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F259C62A88AFC00052145E /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FAECB9DC3E2645B6AE564D9 /* Pods-Zwallet-Vindra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zwallet-Vindra.debug.xcconfig"; path = "Target Support Files/Pods-Zwallet-Vindra/Pods-Zwallet-Vindra.debug.xcconfig"; sourceTree = "<group>"; };
+		5BBF6EE72857BBAB16BBFA3A /* Pods_Zwallet_Vindra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zwallet_Vindra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701CF3792A8F050000FC15DA /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		701CF37B2A8F063C00FC15DA /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		701CF37E2A8F06FE00FC15DA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		701CF3A42A8F2A0C00FC15DA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		701CF3A62A8F2C2400FC15DA /* TokenConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenConstant.swift; sourceTree = "<group>"; };
+		701CF3A82A8F492800FC15DA /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
+		701CF3AA2A8F5A8300FC15DA /* ResetPassResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassResponse.swift; sourceTree = "<group>"; };
+		7029FD842A8A0AEB0015DF9D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7060559B2A8CAC2C0057E29F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		7060559E2A8CAF020057E29F /* ForgotPassFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassFirstViewController.swift; sourceTree = "<group>"; };
+		706055A02A8CB4890057E29F /* ForgotPassSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassSecondViewController.swift; sourceTree = "<group>"; };
+		706F80412A86512A0053F152 /* Zwallet-Vindra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zwallet-Vindra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		706F80442A86512A0053F152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		706F80462A86512A0053F152 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		706F80482A86512A0053F152 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		706F804B2A86512A0053F152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706F804D2A86512C0053F152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706F80502A86512C0053F152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		706F80522A86512C0053F152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7078676A2A8F9361005B2832 /* ProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
+		7078676C2A8FB753005B2832 /* LogoutResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResponse.swift; sourceTree = "<group>"; };
+		707FBE552A8B5B2C00446C13 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		707FBE572A8B662A00446C13 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		70B37F422A88F55B001D8784 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		70EC3DD42A87CD850080D88C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		70F259C62A88AFC00052145E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8E0EE7A7B554B38EFEE55C6F /* Pods-Zwallet-Vindra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zwallet-Vindra.release.xcconfig"; path = "Target Support Files/Pods-Zwallet-Vindra/Pods-Zwallet-Vindra.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706F803E2A86512A0053F152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CF4EDA60535723089E1E24 /* Pods_Zwallet_Vindra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D1A828CC57E556602EC31F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FAECB9DC3E2645B6AE564D9 /* Pods-Zwallet-Vindra.debug.xcconfig */,
+				8E0EE7A7B554B38EFEE55C6F /* Pods-Zwallet-Vindra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		701CF37D2A8F06E900FC15DA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				701CF37B2A8F063C00FC15DA /* AccessToken.swift */,
+				701CF37E2A8F06FE00FC15DA /* Profile.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		701CF3A32A8F29F900FC15DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				701CF3A42A8F2A0C00FC15DA /* LoginResponse.swift */,
+				701CF3A82A8F492800FC15DA /* SignUpResponse.swift */,
+				701CF3AA2A8F5A8300FC15DA /* ResetPassResponse.swift */,
+				7078676A2A8F9361005B2832 /* ProfileResponse.swift */,
+				7078676C2A8FB753005B2832 /* LogoutResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7060559D2A8CADA00057E29F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7060559B2A8CAC2C0057E29F /* Api.swift */,
+				701CF3792A8F050000FC15DA /* ApiService.swift */,
+				701CF3A62A8F2C2400FC15DA /* TokenConstant.swift */,
+				7029FD842A8A0AEB0015DF9D /* StringExtension.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		706F80382A86512A0053F152 = {
+			isa = PBXGroup;
+			children = (
+				706F80432A86512A0053F152 /* Zwallet-Vindra */,
+				706F80422A86512A0053F152 /* Products */,
+				5D1A828CC57E556602EC31F8 /* Pods */,
+				780B8866C61780B76DFCA40C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		706F80422A86512A0053F152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706F80412A86512A0053F152 /* Zwallet-Vindra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706F80432A86512A0053F152 /* Zwallet-Vindra */ = {
+			isa = PBXGroup;
+			children = (
+				701CF3A32A8F29F900FC15DA /* Model */,
+				701CF37D2A8F06E900FC15DA /* Entities */,
+				7060559D2A8CADA00057E29F /* Services */,
+				706F80442A86512A0053F152 /* AppDelegate.swift */,
+				706F80462A86512A0053F152 /* SceneDelegate.swift */,
+				706F80482A86512A0053F152 /* LoginViewController.swift */,
+				70F259C62A88AFC00052145E /* SignUpViewController.swift */,
+				70B37F422A88F55B001D8784 /* OTPViewController.swift */,
+				7060559E2A8CAF020057E29F /* ForgotPassFirstViewController.swift */,
+				706055A02A8CB4890057E29F /* ForgotPassSecondViewController.swift */,
+				707FBE552A8B5B2C00446C13 /* HomeViewController.swift */,
+				707FBE572A8B662A00446C13 /* ProfileViewController.swift */,
+				706F804A2A86512A0053F152 /* Main.storyboard */,
+				706F804D2A86512C0053F152 /* Assets.xcassets */,
+				706F804F2A86512C0053F152 /* LaunchScreen.storyboard */,
+				70EC3DD42A87CD850080D88C /* RoundedButton.swift */,
+				706F80522A86512C0053F152 /* Info.plist */,
+			);
+			path = "Zwallet-Vindra";
+			sourceTree = "<group>";
+		};
+		780B8866C61780B76DFCA40C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BBF6EE72857BBAB16BBFA3A /* Pods_Zwallet_Vindra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706F80402A86512A0053F152 /* Zwallet-Vindra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706F80552A86512C0053F152 /* Build configuration list for PBXNativeTarget "Zwallet-Vindra" */;
+			buildPhases = (
+				9E565D5AD970D6308DF0FF87 /* [CP] Check Pods Manifest.lock */,
+				706F803D2A86512A0053F152 /* Sources */,
+				706F803E2A86512A0053F152 /* Frameworks */,
+				706F803F2A86512A0053F152 /* Resources */,
+				2BBA60C3A99C434ACFA684CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zwallet-Vindra";
+			productName = "Zwallet-Vindra";
+			productReference = 706F80412A86512A0053F152 /* Zwallet-Vindra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706F80392A86512A0053F152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					706F80402A86512A0053F152 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 706F803C2A86512A0053F152 /* Build configuration list for PBXProject "Zwallet-Vindra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706F80382A86512A0053F152;
+			productRefGroup = 706F80422A86512A0053F152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706F80402A86512A0053F152 /* Zwallet-Vindra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706F803F2A86512A0053F152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706F80512A86512C0053F152 /* LaunchScreen.storyboard in Resources */,
+				706F804E2A86512C0053F152 /* Assets.xcassets in Resources */,
+				706F804C2A86512A0053F152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BBA60C3A99C434ACFA684CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zwallet-Vindra/Pods-Zwallet-Vindra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zwallet-Vindra/Pods-Zwallet-Vindra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zwallet-Vindra/Pods-Zwallet-Vindra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E565D5AD970D6308DF0FF87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zwallet-Vindra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706F803D2A86512A0053F152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7060559F2A8CAF020057E29F /* ForgotPassFirstViewController.swift in Sources */,
+				701CF37F2A8F06FE00FC15DA /* Profile.swift in Sources */,
+				70B37F432A88F55B001D8784 /* OTPViewController.swift in Sources */,
+				7029FD852A8A0AEB0015DF9D /* StringExtension.swift in Sources */,
+				706F80492A86512A0053F152 /* LoginViewController.swift in Sources */,
+				701CF3A52A8F2A0C00FC15DA /* LoginResponse.swift in Sources */,
+				707FBE562A8B5B2C00446C13 /* HomeViewController.swift in Sources */,
+				706F80452A86512A0053F152 /* AppDelegate.swift in Sources */,
+				7078676B2A8F9361005B2832 /* ProfileResponse.swift in Sources */,
+				701CF3A72A8F2C2400FC15DA /* TokenConstant.swift in Sources */,
+				706055A12A8CB4890057E29F /* ForgotPassSecondViewController.swift in Sources */,
+				701CF3A92A8F492800FC15DA /* SignUpResponse.swift in Sources */,
+				701CF37C2A8F063C00FC15DA /* AccessToken.swift in Sources */,
+				701CF37A2A8F050000FC15DA /* ApiService.swift in Sources */,
+				706F80472A86512A0053F152 /* SceneDelegate.swift in Sources */,
+				701CF3AB2A8F5A8300FC15DA /* ResetPassResponse.swift in Sources */,
+				707FBE582A8B662A00446C13 /* ProfileViewController.swift in Sources */,
+				70EC3DD52A87CD850080D88C /* RoundedButton.swift in Sources */,
+				7078676D2A8FB753005B2832 /* LogoutResponse.swift in Sources */,
+				7060559C2A8CAC2C0057E29F /* Api.swift in Sources */,
+				70F259C72A88AFC00052145E /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		706F804A2A86512A0053F152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706F804B2A86512A0053F152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		706F804F2A86512C0053F152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706F80502A86512C0053F152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		706F80532A86512C0053F152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		706F80542A86512C0053F152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706F80562A86512C0053F152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAECB9DC3E2645B6AE564D9 /* Pods-Zwallet-Vindra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zwallet-Vindra/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ODP.Zwallet-Vindra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706F80572A86512C0053F152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0EE7A7B554B38EFEE55C6F /* Pods-Zwallet-Vindra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zwallet-Vindra/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ODP.Zwallet-Vindra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706F803C2A86512A0053F152 /* Build configuration list for PBXProject "Zwallet-Vindra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706F80532A86512C0053F152 /* Debug */,
+				706F80542A86512C0053F152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706F80552A86512C0053F152 /* Build configuration list for PBXNativeTarget "Zwallet-Vindra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706F80562A86512C0053F152 /* Debug */,
+				706F80572A86512C0053F152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706F80392A86512A0053F152 /* Project object */;
+}
